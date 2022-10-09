@@ -10,7 +10,7 @@ import KeyWest from "../../assets/keywest.jpg";
 
 const Carouselmg = () => {
   return (
-    <div className="carousel py-5">
+    <div className="carousel py-5" name="Carousel">
       <div className="container">
         <Carousel infiniteLoop autoPlay={true} showArrows={true} useKeyboardArrows showIndicators={true} >
           <div>

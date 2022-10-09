@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes,FaFacebook,FaInstagram,FaTwitter,FaPinterest ,FaYoutube} from "react-icons/fa";
 import {BiSearch} from 'react-icons/bi';
 import {BsPerson} from 'react-icons/bs';
-
+import { Link } from "react-scroll";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -16,13 +15,13 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg  ">
+      <nav className="navbar navbar-expand-lg  " name="home">
         <div className="container py-2">
-          <NavLink className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/">
             <h1>
               BEACHES.
             </h1>
-          </NavLink>
+          </Link>
           <button
             className="navbar-toggler"
             onClick={handleClick}
@@ -38,30 +37,30 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto ">
               <li className="nav-item">
-                <NavLink  className="nav-link" to="/Home" end>
+                <Link  className="nav-link" to="home" smooth={true} duration={500}>
                   Home
-                </NavLink>
+                </Link>
               </li>
               <li className="nav-item">
-                <NavLink  className="nav-link " to="/Destinations">
+                <Link  className="nav-link " to="Destination" smooth={true} duration={500}>
                 Destinations
-                </NavLink>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <NavLink  className="nav-link" to="/Travel">
+                <Link  className="nav-link" to="Carousel" smooth={true} duration={500}>
                 Travel
-                </NavLink>
+                </Link>
               </li>
               <li className="nav-item">
-                <NavLink  className="nav-link" to="/Book">
+                <Link  className="nav-link" to="book" smooth={true} duration={500}>
                 Book
-                </NavLink>
+                </Link>
               </li>
               <li className="nav-item">
-                <NavLink  className="nav-link" to="/Views">
+                <Link  className="nav-link" to="views" smooth={true} duration={500}>
                 Views
-                </NavLink>
+                </Link>
               </li>
             </ul>
             <div className="nav-icons">

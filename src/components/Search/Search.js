@@ -4,7 +4,7 @@ import Gold from "../../assets/gold.png";
 
 const Search = () => {
   return (
-    <div className="Search py-5">
+    <div className="Search py-5" name="book">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 left">

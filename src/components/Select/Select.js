@@ -9,7 +9,7 @@ import SelectImg from "../SelectImg/SelectImg";
 
 const Select = () => {
   return (
-    <div className="Select py-5">
+    <div className="Select py-5" name="views">
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6 mb-2">

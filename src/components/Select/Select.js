@@ -1,5 +1,4 @@
 import React from "react";
-import "./Select.css";
 import BoraBora from "../../assets/borabora.jpg";
 import BoraBora2 from "../../assets/borabora2.jpg";
 import Maldives from "../../assets/maldives.jpg";

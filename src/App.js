@@ -18,7 +18,6 @@ function App() {
     <Select />
     <Carouselmg/>
     <Footer/>
-    <ButtonToTop/>
     </>
   );
 }

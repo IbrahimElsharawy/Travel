@@ -1,5 +1,4 @@
 import React from "react";
-import ButtonToTop from "./components/ButtonToTop/ButtonToTop";
 import Carouselmg from "./components/Carouselmg/Carouselmg";
 import Destination from "./components/Destinations/Destination";
 import Footer from "./components/Footer/Footer";

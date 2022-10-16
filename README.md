@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Travel demo  can be [viewed online here](https://63499650cdde31009eb36249--beamish-sunflower-a61040.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+An application that displays a front-end of a safari site created using React
 
-In the project directory, you can run:
+## Installation and Setup Instructions
+*Clone down this repository. You will need `node` and `npm` installed globally on your machine.*  
+Installation:
 
-### `npm start`
+`npm install`  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To Run Test Suite:  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`npm test`  
 
-### `npm test`
+To Start Server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm start`  
 
-### `npm run build`
+To Visit App:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`localhost:3000/ideas` 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Style:
+I made each component in a folder that has its own css file and made in index.css file some styles which will be applied to all components to reduce code size
+```
+// Hello Start
+{
+  // Style...
+}
+// Hello End
+```
+remember to search with the component name for easy access
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Images
 
-### `npm run eject`
+**website look**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.*Navbar && Hero component*
+![navbar-and-hero.jpg](https://tinypic.host/images/2022/10/16/navbar-and-hero.jpg)
+2.*Destination component*
+![Destintion-component.jpg](https://tinypic.host/images/2022/10/16/Destintion-component.jpg)
+3.*Book Component*
+![Book-component.jpg](https://tinypic.host/images/2022/10/16/Book-component.jpg)
+4.*View Component*
+![view-component.jpg](https://tinypic.host/images/2022/10/16/view-component.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###Added packages
+1.npm i bootstrap
+2.npm i react-router-dom
+3.npm i react-responsive-carousel
+4.npm i react-icons
+5.npm i react-scroll

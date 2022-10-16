@@ -46,9 +46,9 @@ remember to search with the component name for easy access
 ![view-component.jpg](https://tinypic.host/images/2022/10/16/view-component.jpg)
 
 
-###Added packages
-1.npm i bootstrap
-2.npm i react-router-dom
-3.npm i react-responsive-carousel
-4.npm i react-icons
-5.npm i react-scroll
+### Added packages
+- npm i bootstrap
+- npm i react-router-dom
+- npm i react-responsive-carousel
+- npm i react-icons
+- npm i react-scroll
